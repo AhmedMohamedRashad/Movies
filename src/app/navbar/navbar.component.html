@@ -1,0 +1,54 @@
+<nav class="navbar navbar-dark navbar-expand-lg ">
+    <h3 class="font-weight-bold ">NOXE</h3>
+    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li  class="nav-item">
+                <a *ngIf="isLogin" class="nav-link" routerLink="home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li  class="nav-item">
+                <a *ngIf="isLogin" class="nav-link" routerLink="movies">Movies</a>
+            </li>
+            <li class="nav-item">
+                <a *ngIf="isLogin" class="nav-link" routerLink="tv">Tv show</a>
+            </li>
+            <li class="nav-item">
+                <a *ngIf="isLogin" class="nav-link" routerLink="people">People</a>
+            </li>
+            <li class="nav-item">
+                <a *ngIf="isLogin" class="nav-link" routerLink="about">About</a>
+            </li>
+            <li class="nav-item">
+                <a *ngIf="isLogin" class="nav-link" routerLink="network">Network</a>
+            </li>
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> 
+        </form>
+        <div class="social-media">
+            <i class="mx-2 fab fa-facebook"></i>
+            <i class="mx-2 fab fa-twitter"></i>
+            <i class="mx-2 fab fa-instagram"></i>
+        </div>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" routerLink="login">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="register">Register</a>
+            </li>
+            <li class="nav-item">
+                <a *ngIf="isLogin" class="nav-link" (click)="isLogout()" >Logout</a>
+            </li>
+            <li class="nav-item">
+                <a *ngIf="isLogin" class="nav-link" routerLink="settings" >Settings</a>
+            </li>
+        </ul>
+        
+    </div>
+</nav>
