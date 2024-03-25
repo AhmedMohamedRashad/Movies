@@ -1,7 +1,9 @@
 # Noxe
 
 ![movies](https://github.com/AhmedMohamedRashad/Movies/assets/63957756/50ad2963-7612-4363-8a91-d237e5523103)
-![Uploading movies2.PNG…]()
+![movies2](https://github.com/AhmedMohamedRashad/Movies/assets/63957756/0bb4f8d0-2e49-40e5-991d-e88f1d288364)
+![movies3](https://github.com/AhmedMohamedRashad/Movies/assets/63957756/791a90c1-4d24-498c-99d7-249dd44791f2)
+
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
