@@ -1,5 +1,9 @@
 # Noxe
 
+![movies](https://github.com/AhmedMohamedRashad/Movies/assets/63957756/50ad2963-7612-4363-8a91-d237e5523103)
+![Uploading movies2.PNG…]()
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
 
 ## Development server
